@@ -1,0 +1,17 @@
+.container {
+  position: absolute;
+  left: 42%;
+  top: 10%;
+}
+
+.signuphead {
+  padding-left: 50px;
+}
+
+.submitbuttondiv {
+  padding-left: 70px;
+}
+
+.button {
+  padding: 10px 20px 10px 20px;
+}

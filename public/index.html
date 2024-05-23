@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Service</title>
+  </head>
+  <body>
+    <button id="signupbtn">Sign Up</button>
+    <button id="loginbtn">Login</button>
+
+    <script>
+      const signupBtn = document.getElementById("signupbtn");
+      signupBtn.addEventListener("click", () => {
+        window.location.href = "/signup.html";
+      });
+
+      const loginBtn = document.getElementById("loginbtn");
+      loginBtn.addEventListener("click", () => {
+        window.location.href = "/login.html";
+      });
+    </script>
+  </body>
+</html>
